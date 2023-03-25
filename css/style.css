@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://i.ibb.co/7ys15Nd/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: sans-serif;
+    color: white;
+}
+
+.dp {
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.menu {
+    background-color: rgb(31, 30, 30);
+    width: 20vw;
+    min-width: 150px;
+    height: 100vh;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    line-height: 3.5;
+}
+
+.menu .active{
+    color: gray; 
+    pointer-events: none;
+}
+
+
+.contant{
+    width: 80vw;
+    height: 100vh;
+}
+
+.parent{
+    display: flex;
+}
+.content{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    font-size: larger;
+}
+
+.edu td{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.limit{
+    max-width: 900px;
+}
+
+
+footer{
+    text-align: center;
+    padding-bottom: 20px; 
+    position: absolute; 
+    bottom: 0; 
+    left: 10px; 
+    max-width: 20vw;
+    min-width: 150px;
+}
